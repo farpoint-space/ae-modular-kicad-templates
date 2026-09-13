@@ -1,0 +1,983 @@
+(kicad_sch 
+  (version 20260306) 
+  (generator "eeschema") 
+  (generator_version "10.0") 
+  (uuid "281d0871-942f-40bd-b60e-20ed3953db88") 
+  (paper "A4") 
+  (lib_symbols 
+    (symbol "Connector_Generic_MountingPin:Conn_01x08_MountingPin" 
+      (pin_names 
+        (offset 1.016) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "J" 
+        (at 0 10.16 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "Conn_01x08_MountingPin" 
+        (at 1.27 -12.7 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "connector" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_fp_filters" "Connector*:*_1x??-1MP*" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "Conn_01x08_MountingPin_1_1" 
+        (rectangle 
+          (start -1.27 8.89) 
+          (end 1.27 -11.43) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type background))) 
+        (rectangle 
+          (start -1.27 7.747) 
+          (end 0 7.493) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 5.207) 
+          (end 0 4.953) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 2.667) 
+          (end 0 2.413) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 0.127) 
+          (end 0 -0.127) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 -2.413) 
+          (end 0 -2.667) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 -4.953) 
+          (end 0 -5.207) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 -7.493) 
+          (end 0 -7.747) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 -10.033) 
+          (end 0 -10.287) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.016 -12.192) 
+            (xy 1.016 -12.192)) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (text "Mounting" 
+          (at 0 -11.811 0) 
+          (effects 
+            (font 
+              (size 0.381 0.381)))) 
+        (pin passive line 
+          (at -5.08 7.62 0) 
+          (length 3.81) 
+          (name "Pin_1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 5.08 0) 
+          (length 3.81) 
+          (name "Pin_2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 2.54 0) 
+          (length 3.81) 
+          (name "Pin_3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "3" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 0 0) 
+          (length 3.81) 
+          (name "Pin_4" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "4" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 -2.54 0) 
+          (length 3.81) 
+          (name "Pin_5" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "5" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 -5.08 0) 
+          (length 3.81) 
+          (name "Pin_6" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "6" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 -7.62 0) 
+          (length 3.81) 
+          (name "Pin_7" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "7" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 -10.16 0) 
+          (length 3.81) 
+          (name "Pin_8" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "8" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 0 -15.24 90) 
+          (length 3.048) 
+          (name "MountPin" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "MP" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Connector_Generic_MountingPin:Conn_02x05_Top_Bottom_MountingPin" 
+      (pin_names 
+        (offset 1.016) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "J" 
+        (at 1.27 7.62 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "Conn_02x05_Top_Bottom_MountingPin" 
+        (at 2.54 -7.62 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Generic connectable mounting pin connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "connector" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_fp_filters" "Connector*:*_2x??-1MP*" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "Conn_02x05_Top_Bottom_MountingPin_1_1" 
+        (rectangle 
+          (start -1.27 6.35) 
+          (end 3.81 -6.35) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type background))) 
+        (rectangle 
+          (start -1.27 5.207) 
+          (end 0 4.953) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 2.667) 
+          (end 0 2.413) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 0.127) 
+          (end 0 -0.127) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 -2.413) 
+          (end 0 -2.667) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 -4.953) 
+          (end 0 -5.207) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 0.254 -7.112) 
+            (xy 2.286 -7.112)) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start 3.81 5.207) 
+          (end 2.54 4.953) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start 3.81 2.667) 
+          (end 2.54 2.413) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start 3.81 0.127) 
+          (end 2.54 -0.127) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start 3.81 -2.413) 
+          (end 2.54 -2.667) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start 3.81 -4.953) 
+          (end 2.54 -5.207) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (text "Mounting" 
+          (at 1.27 -6.731 0) 
+          (effects 
+            (font 
+              (size 0.381 0.381)))) 
+        (pin passive line 
+          (at -5.08 5.08 0) 
+          (length 3.81) 
+          (name "Pin_1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 2.54 0) 
+          (length 3.81) 
+          (name "Pin_2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 0 0) 
+          (length 3.81) 
+          (name "Pin_3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "3" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 -2.54 0) 
+          (length 3.81) 
+          (name "Pin_4" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "4" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 -5.08 0) 
+          (length 3.81) 
+          (name "Pin_5" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "5" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 7.62 5.08 180) 
+          (length 3.81) 
+          (name "Pin_6" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "6" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 7.62 2.54 180) 
+          (length 3.81) 
+          (name "Pin_7" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "7" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 7.62 0 180) 
+          (length 3.81) 
+          (name "Pin_8" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "8" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 7.62 -2.54 180) 
+          (length 3.81) 
+          (name "Pin_9" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "9" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 7.62 -5.08 180) 
+          (length 3.81) 
+          (name "Pin_10" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "10" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 1.27 -10.16 90) 
+          (length 3.048) 
+          (name "MountPin" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "MP" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Mechanical:MountingHole_Pad" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 1.016) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom no) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "H" 
+        (at 0 6.35 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "MountingHole_Pad" 
+        (at 0 4.445 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Mounting Hole with connection" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "mounting hole" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_fp_filters" "MountingHole*Pad*" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "MountingHole_Pad_0_1" 
+        (circle 
+          (center 0 1.27) 
+          (radius 1.27) 
+          (stroke 
+            (width 1.27) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "MountingHole_Pad_1_1" 
+        (pin input line 
+          (at 0 -2.54 90) 
+          (length 2.54) 
+          (name "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no))) 
+  (symbol 
+    (lib_id "Connector_Generic_MountingPin:Conn_01x08_MountingPin") 
+    (at 148.59 101.6 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "35f58aa6-de89-41ce-87fb-7beb0a11a2e9") 
+    (property "Reference" "J2" 
+      (at 151.13 101.9555 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "Right" 
+      (at 151.13 104.4955 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" 
+      (at 148.59 101.6 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 148.59 101.6 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)" 
+      (at 148.59 101.6 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "2" 
+      (uuid "a97b7821-a14d-41ce-9960-66ccbb728f2e")) 
+    (pin "1" 
+      (uuid "16878b8e-9749-4b95-98da-995974036421")) 
+    (pin "5" 
+      (uuid "5bb04a60-7493-4d09-97cd-20c8fde5d200")) 
+    (pin "8" 
+      (uuid "009b57e0-4831-4667-b38f-1ba791d9eb29")) 
+    (pin "4" 
+      (uuid "297788e4-374b-4439-a0cb-60cd07005b53")) 
+    (pin "6" 
+      (uuid "ca45a863-7083-4eb4-a461-dd5b32e42b96")) 
+    (pin "7" 
+      (uuid "2aa2873a-f1d1-47c1-b9fd-a99ccec4a267")) 
+    (pin "3" 
+      (uuid "489db169-388d-4acf-976b-a0aebbc85c5e")) 
+    (pin "MP" 
+      (uuid "937784de-0036-4480-b6e9-ba2c088bc0f4")) 
+    (instances 
+      (project "ae_tpl_1u_100mm" 
+        (path "/281d0871-942f-40bd-b60e-20ed3953db88" 
+          (reference "J2") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Connector_Generic_MountingPin:Conn_01x08_MountingPin") 
+    (at 127 104.14 180) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "3e9bd485-84b7-4a6d-8464-d788883894a2") 
+    (property "Reference" "J1" 
+      (at 124.46 101.2443 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "Left" 
+      (at 124.46 103.7843 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" 
+      (at 127 104.14 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 127 104.14 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)" 
+      (at 127 104.14 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "2" 
+      (uuid "a4948fe6-af49-4e35-9bb4-1ea5d0aa31fc")) 
+    (pin "1" 
+      (uuid "ae7262e3-a33f-4018-a22e-34694ad1d427")) 
+    (pin "5" 
+      (uuid "21b1415f-6cfe-4a9d-a74f-fe6b66bdda34")) 
+    (pin "8" 
+      (uuid "3d41e6d6-d656-4281-93c3-510409b7b3a1")) 
+    (pin "4" 
+      (uuid "f55776df-d89e-43b0-8d9e-8e670378e2f6")) 
+    (pin "6" 
+      (uuid "14fd8bc3-a15b-4366-87de-df4da026b0c8")) 
+    (pin "7" 
+      (uuid "90232423-e04c-43b5-b423-4b3cc916212a")) 
+    (pin "3" 
+      (uuid "e61b5658-4b34-4c93-a9ea-ead567c1e459")) 
+    (pin "MP" 
+      (uuid "fdc45a00-c40f-4655-a0af-1b9760c98407")) 
+    (instances 
+      (project "ae_tpl_1u_100mm" 
+        (path "/281d0871-942f-40bd-b60e-20ed3953db88" 
+          (reference "J1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Mechanical:MountingHole_Pad") 
+    (at 107.95 109.22 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom no) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "94a71e25-2d73-4834-a6f1-1b77417eb38d") 
+    (property "Reference" "H2" 
+      (at 110.49 107.9499 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "" 
+      (at 110.49 109.2199 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965" 
+      (at 107.95 109.22 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 107.95 109.22 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Mounting Hole with connection" 
+      (at 107.95 109.22 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "a459afea-4333-4d8d-b9fb-e8e11c87f2af")) 
+    (instances 
+      (project "ae_tpl_1u_100mm" 
+        (path "/281d0871-942f-40bd-b60e-20ed3953db88" 
+          (reference "H2") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Connector_Generic_MountingPin:Conn_02x05_Top_Bottom_MountingPin") 
+    (at 175.26 100.33 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "ca44b444-e727-45bd-9908-7a4a5bb0fd05") 
+    (property "Reference" "J3" 
+      (at 176.53 88.9 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "Bus" 
+      (at 176.53 91.44 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" 
+      (at 175.26 100.33 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 175.26 100.33 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Generic connectable mounting pin connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)" 
+      (at 175.26 100.33 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "49ff67ad-a42b-45e3-8670-0ec1267e669e")) 
+    (pin "5" 
+      (uuid "694c54cd-175c-4247-bdd0-033d0c5dafd7")) 
+    (pin "6" 
+      (uuid "b7e63310-0ea1-4cf6-8064-e6e35d160184")) 
+    (pin "7" 
+      (uuid "d3b30015-27b8-4d4d-bedd-a234ea545243")) 
+    (pin "2" 
+      (uuid "c698e5fb-90a9-45fe-8bf5-019233e05f1a")) 
+    (pin "4" 
+      (uuid "865a7c08-7f6f-42f2-85b2-267bc0922d70")) 
+    (pin "10" 
+      (uuid "321613c6-84c6-4f5c-a6ce-aba59c8ba2eb")) 
+    (pin "8" 
+      (uuid "7d9df5bd-8a95-40fc-8675-b6cc76520379")) 
+    (pin "MP" 
+      (uuid "936c2b6c-671b-4fdf-9f19-3883a042bc09")) 
+    (pin "3" 
+      (uuid "5d66c94d-ae42-424f-88e9-8c485fbbf174")) 
+    (pin "9" 
+      (uuid "9d6dd874-00b0-4a48-931e-e290515a2eba")) 
+    (instances 
+      (project "ae_tpl_1u_100mm" 
+        (path "/281d0871-942f-40bd-b60e-20ed3953db88" 
+          (reference "J3") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Mechanical:MountingHole_Pad") 
+    (at 107.95 101.6 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom no) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "db3f28bd-6bb1-4f37-87a0-35299b40afaa") 
+    (property "Reference" "H1" 
+      (at 110.49 100.3299 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "" 
+      (at 110.49 101.5999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965" 
+      (at 107.95 101.6 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 107.95 101.6 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Mounting Hole with connection" 
+      (at 107.95 101.6 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "763b1663-a67a-4a84-9d22-97fe3284fd67")) 
+    (instances 
+      (project "ae_tpl_1u_100mm" 
+        (path "/281d0871-942f-40bd-b60e-20ed3953db88" 
+          (reference "H1") 
+          (unit 1))))) 
+  (sheet_instances 
+    (path "/" 
+      (page "1"))) 
+  (embedded_fonts no))
