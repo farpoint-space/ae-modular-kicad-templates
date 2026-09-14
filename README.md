@@ -1,6 +1,6 @@
 # AE Modular KiCad Templates
 
-A set of blank KiCad templates for designing custom [AE Modular](https://www.aemodular.com/) synthesizer modules. 
+A set of blank KiCad templates for designing custom [AE Modular](https://wiki.aemodular.com/) synthesizer modules. 
 
 These templates were designed to provide a robust starting point that strictly respects real-world mounting constraints while keeping the PCB design process as straightforward as possible.
 
